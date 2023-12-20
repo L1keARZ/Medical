@@ -51,7 +51,7 @@ function main()
     local githubVersion = 0
 
     local function updateScript()
-        local response = requests.get("https://raw.githubusercontent.com/BostKing102/mobiletools/main/MedicalHelper.lua")
+        local response = requests.get("https://raw.githubusercontent.com/L1keARZ/Medical/main/MedicalHelper.lua")
         
         if response.status_code == 200 then
             local f = assert(io.open('MedicalHelper.lua', 'wb'))
